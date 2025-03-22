@@ -7,7 +7,7 @@ minetest.register_decoration({
     biomes = {"rainforest"},
     y_max = 100,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/temple.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/temple.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
@@ -20,7 +20,7 @@ minetest.register_decoration({
     biomes = {"tundra"},
     y_max = 100,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/stonehenge.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/stonehenge.mts",
     flags = "place_center_x, place_center_z",
     rotation = "random",
 })
@@ -33,7 +33,7 @@ minetest.register_decoration({
     biomes = {"taiga"},
     y_max = 100,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/ruined_house.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/ruined_house.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
@@ -46,7 +46,7 @@ minetest.register_decoration({
     biomes = {"snowy_grassland"},
     y_max = 100,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/ruined_house.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/ruined_house.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
@@ -59,7 +59,7 @@ minetest.register_decoration({
     biomes = {"icesheet"},
     y_max = 100,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/ruined_house2.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/ruined_house2.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
@@ -72,7 +72,7 @@ minetest.register_decoration({
     biomes = {"sandstone_desert"},
     y_max = 25,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/egypt.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/egypt.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
@@ -85,7 +85,7 @@ minetest.register_decoration({
     biomes = {"desert"},
     y_max = 25,
     y_min = 1,
-    schematic = minetest.get_modpath("ruins") .. "/schematics/egypt2.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/egypt2.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
