@@ -1,4 +1,4 @@
-# Ruins
+# Ruined structures
 
 Adds ruins to desert, sandstone desert, icesheet, snowy grassland, taiga, rainforest and tundra
 
@@ -7,12 +7,12 @@ Adds ruins to desert, sandstone desert, icesheet, snowy grassland, taiga, rainfo
 ### ContentDB
 
 * Content > Browse Online Content
-* Search for "Ruins"
+* Search for "Ruined structures"
 * Click Install
 
 ### Manually
 
-- Unzip the archive, rename the folder to `ruins` and
+- Unzip the archive, rename the folder to `ruined_structures` and
 place it in `.../minetest/mods/`
 
 - GNU/Linux: If you use a system-wide installation place it in `~/.minetest/mods/`.
