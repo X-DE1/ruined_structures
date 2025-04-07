@@ -73,7 +73,7 @@ minetest.register_decoration({
     y_max = 25,
     y_min = 1,
     schematic = minetest.get_modpath("ruined_structures") .. "/schematics/sandstone.mts",
-    flags = "place_center_x, place_center_z, force_placement",
+    flags = "place_center_x, place_center_z",
     rotation = "random",
 })
 
@@ -86,6 +86,6 @@ minetest.register_decoration({
     y_max = 25,
     y_min = 1,
     schematic = minetest.get_modpath("ruined_structures") .. "/schematics/desert.mts",
-    flags = "place_center_x, place_center_z, force_placement",
+    flags = "place_center_x, place_center_z",
     rotation = "random",
 })
