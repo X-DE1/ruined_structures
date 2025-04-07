@@ -72,7 +72,7 @@ minetest.register_decoration({
     biomes = {"sandstone_desert"},
     y_max = 25,
     y_min = 1,
-    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/egypt.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/sandstone.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
@@ -85,7 +85,7 @@ minetest.register_decoration({
     biomes = {"desert"},
     y_max = 25,
     y_min = 1,
-    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/egypt2.mts",
+    schematic = minetest.get_modpath("ruined_structures") .. "/schematics/desert.mts",
     flags = "place_center_x, place_center_z, force_placement",
     rotation = "random",
 })
